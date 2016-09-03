@@ -1,4 +1,3 @@
-package grafos;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -36,8 +35,8 @@ public class Main {
 				String [] tmp = line.split(",");
 				for(int i = 0; i < tmp.length; i++){
 					if(tmp[i].equals("1")){
-						Celula c = new Celula(1,"branca", i, 1);
-						list[contador].add((Object)c);
+						Vertice v = new Vertice(1,"branca", i, 1);
+						list[contador].add((Object)v);
 					} 
 				}
 				contador++;
