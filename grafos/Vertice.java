@@ -1,9 +1,8 @@
 package grafos;
 
-public class Celula {
+public class Vertice {
 
 	public String cor ="braca";
-	public Celula prox = null;
 	public int distancia = 0;
 	public int vertice = 0;
 	public int hasVertice= 0;

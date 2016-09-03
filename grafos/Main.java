@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class Main {
 	
-	protected static Lista []vertices;
 	public static ArrayList []list;
 	public static Scanner in = new Scanner(System.in);
 	
@@ -37,7 +36,7 @@ public class Main {
 				String [] tmp = line.split(",");
 				for(int i = 0; i < tmp.length; i++){
 					if(tmp[i].equals("1")){
-						Celula c = new Celula(1,"branca",null,i, 1);
+						Celula c = new Celula(1,"branca", i, 1);
 						list[contador].add((Object)c);
 					} 
 				}
